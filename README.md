@@ -1,5 +1,5 @@
 # FAQ Ask Bot
-FAQ Ask Bot creates events with the clock-in and clock-out times specified by users in the administrator's shared calendar. As all users' clock-in and clock-out events are created in the administrator's account connected with the bot, only authorized users can see those events.
+FAQ ask bot provides frequently asked questions (FAQs) about work and creates posts from questions asked by users in a specified Q&A board so that the Q&A administrator can answer them. A Q&A board is created as soon as your FAQ ask bot is deployed; although it is open to all members by default, you can edit the FAQ ask bot source code or change the Admin settings to make the board private if needed.
 
 ## Development Language and Environment
 * Python 3
