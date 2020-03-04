@@ -1,35 +1,44 @@
-# faq_bot
-### reference information
-#### ref: http://www.tornadoweb.org
-####      https://minzkraut.com/2016/11/23/making-a-simple-spritesheet-generator-in-python
-### The default deployment path is ~/oneapp_samplebot/faq_bot, and if you want to change the deployment path, please modify the configuration file
-#### setting.py
-### Using the default irteam user to boot by default 
-### python version 3.6.3
+# FAQ Ask Bot
+FAQ Ask Bot creates events with the clock-in and clock-out times specified by users in the administrator's shared calendar. As all users' clock-in and clock-out events are created in the administrator's account connected with the bot, only authorized users can see those events.
 
-1. install miniconda3(python3.6 env) to ~/miniconda3; add ~/miniconda3/bin to $PATH;
-   refer https://conda.io/miniconda.html 
-   
-2. install the modules in requirements.txt to python3
-   refer https://pip.pypa.io/en/stable/user_guide/#installing-packages
+## Development Language and Environment
+* Python 3
+* Tornado framework
+* Postgres
 
-3. clone this repository
-    https://oss.navercorp.com/works-mobile/oneapp-samplebot-FAQ.git
+## How to use
 
-4. modify conf/config.py
+1. Get API authentication information from [the Developers Console](https://developers.worksmobile.com/console/)
+2. Develop your bot by using the sample bot source code provided on GitHub
+3. Deploy your bot depending on your company’s deployment policies
 
-5. simple running
-   python main.py --port=8080 --daemonize True
+## Documentation
+See the official API documentation for more information.
 
-# document
-[here](https://pages.oss.navercorp.com/works-mobile/oneapp-samplebot-FAQ/)
+* [English](https://developers.worksmobile.com/document/10050700301?lang=en)
+* [Japanese](https://developers.worksmobile.com/document/10050700301?lang=ja)
+* [Korean](https://developers.worksmobile.com/document/10050700301?lang=ko)
+
+## Reference
+[Click here](https://lineworks.github.io/samplebot_attendance_management_bot/) to see details on the FAQ Ask Bot's source code.
+
+## Furthur Inquiries
+Kindly leave a comment on Github Issues. 
+
+## License
+
 ```
-cd doc/
+   Copyright 2020-present Works Mobile Corp.
 
-make markdown
-ls _build/markdown/
+   Licensed under the Apache License, Version 2.0 (the "License");
+   you may not use this file except in compliance with the License.
+   You may obtain a copy of the License at
 
-make html
-sphinx-serve
-cp -R _build/html/* ../docs/
+       http://www.apache.org/licenses/LICENSE-2.0
+
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License.
 ```
