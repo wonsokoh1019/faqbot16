@@ -6,22 +6,22 @@ import os
 DEFAULT_LANG = 'ja'
 
 # account
-ADMIN_ACCOUNT = "admin@xxx.com"
-DOMAIN_ID = 0
+ADMIN_ACCOUNT = "admin@lwbottest"
+DOMAIN_ID = 156307
 
 # api
-API_ID = "kr1EHxxxxfJVz"
-SERVER_CONSUMER_KEY = "To8SnC7sxxxxxjqXZhO"
+API_ID = "kr1HOTNAKgnvZ"
+SERVER_CONSUMER_KEY = "u2FxcdHbKaRI3xgvs_QX"
 
-SERVER_ID = "96460cc1e778402xxxxxfe35fa97ce76"
-SECRET_KEY_NAME = "private_201xxxxx164308.key"
+SERVER_ID = "724420635b324730ba912315f30efb0c"
+SECRET_KEY_NAME = "private_20200304125517.key"
 
 # LOCAL ADDRESS
-LOCAL_ADDRESS = "https://[Heroku app name].herokuapp.com/"
+LOCAL_ADDRESS = "https://faqbot16.herokuapp.com/"
 
 # DB config
-DB_HOST = "ec2-xxx-xxx-xxx-xxx.compute-1.amazonaws.com"
-DB_NAME = "x3mdxxxxsg5nx"
-DB_USER = "xsozxxxxvksikx"
+DB_HOST = "ec2-52-203-160-194.compute-1.amazonaws.com"
+DB_NAME = "dcqig23vb0dikk"
+DB_USER = "dlzmibnssecnso"
 DB_PORT = "5432"
-DB_PASSWORD = "xxxxxb3ff80c85d331da880f4b3e0xxxxxxxxxxxd552d64d128317653ce0xxxx"
+DB_PASSWORD = "013fcc2214eefe007cfb8df39575705e6a8c0fcb8b649befaac8e9f29e77fda7"
